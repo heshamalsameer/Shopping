@@ -37,7 +37,7 @@ export interface CreateCartDto {
     title: string;
     description: string;
     image:string;
-    price:number
+    price:string
     userId: number;
 }
 
