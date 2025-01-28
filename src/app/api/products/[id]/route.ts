@@ -106,7 +106,7 @@ export async function PUT(request: NextRequest, { params }: Props) {
       data: {
         title: body.title,
         description: body.description,
-        price:parseInt(body.price),
+        price:body.price,
         image:body.image
       },
     });
