@@ -17,7 +17,7 @@ CREATE TABLE "Product" (
     "title" VARCHAR(200) NOT NULL,
     "description" TEXT NOT NULL,
     "image" TEXT NOT NULL,
-    "price" INTEGER NOT NULL,
+    "price" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
@@ -30,7 +30,7 @@ CREATE TABLE "Cart" (
     "title" VARCHAR(200) NOT NULL,
     "description" TEXT NOT NULL,
     "image" TEXT NOT NULL,
-    "price" INTEGER NOT NULL,
+    "price" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
     "userId" INTEGER,
