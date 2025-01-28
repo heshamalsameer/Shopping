@@ -50,7 +50,7 @@ const ProductItem = ({ product, token }: ProductItemProps) => {
             <Image
               width={500}
               height={100}
-              className="rounded-lg hover:scale-110 hover:rotate-2 transition duration-500"
+              className="rounded-lg h-[100%] hover:scale-110 hover:rotate-2 transition duration-500"
               src={product.image}
               alt={product.title}
             />
