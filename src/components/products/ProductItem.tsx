@@ -36,6 +36,7 @@ const ProductItem = ({ product, token }: ProductItemProps) => {
         setLoading(false);
         router.refresh();
       } catch (error: any) {
+        setLoading(false);
         toast.error(error?.response?.data.message);
         console.log(error);
       }
