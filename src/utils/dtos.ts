@@ -8,7 +8,7 @@ export interface CreateProductDto {
 export interface UpdateProductDto {
     title?: string;
     description?: string;
-    price?: any;
+    price?: any | number |string;
     image?:string
 }
 
