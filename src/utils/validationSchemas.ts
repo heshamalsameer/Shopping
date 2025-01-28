@@ -11,7 +11,7 @@ export const createProductSchema = z.object({
     .max(200, { message: "title should be less than 200 characters" }),
 
   description: z.string().min(10),
-  price:z.number({
+  price:z.string({
     required_error:"price is required"
   }),
 

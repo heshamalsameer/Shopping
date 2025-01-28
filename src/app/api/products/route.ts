@@ -63,7 +63,7 @@ export async function POST(request: NextRequest) {
       data: {
         title: body.title,
         description: body.description,
-        price:body.price,
+        price:parseInt(body.price),
         image:body.image
       },
     });

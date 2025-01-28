@@ -1,14 +1,14 @@
 export interface CreateProductDto {
     title: string;
     description: string;
+    price:string
     image: string;
-    price:any
 }
 
 export interface UpdateProductDto {
     title?: string;
     description?: string;
-    price?: any | number |string;
+    price?: string ;
     image?:string
 }
 
