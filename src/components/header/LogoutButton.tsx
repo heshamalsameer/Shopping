@@ -26,7 +26,7 @@ const LogoutButton = () => {
   return (
     <button
       onClick={logoutHandler}
-      className="bg-blue-950 hover:bg-blue-800 text-xl font-semibold p-1 px-3 text-gray-200 rounded"
+      className="bg-blue-800 hover:bg-blue-950 text-xl font-semibold p-1 px-3 text-gray-200 rounded"
     >
       {isLoading ? <ButtonSpinner /> : "Logout"}
     </button>
