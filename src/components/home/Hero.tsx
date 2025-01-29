@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.heroLeft}>
-        <h1 className={styles.title}>Electrical shop</h1>
+        <h1 className={styles.title}>Cats shopping</h1>
         <p className={styles.desc}>
           The best successful solution for online shopping{" "}
         </p>
